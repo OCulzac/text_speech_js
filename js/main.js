@@ -50,7 +50,7 @@ const getVoices = () => {
 };
 
 getVoices();
-if (synth.onvoiceschanged !== undefined) {
+if (synth.onvoiceschanged !== undefined && !voiceSelect.hasChildNodes()) {
   synth.onvoiceschanged = getVoices;
 }
 
