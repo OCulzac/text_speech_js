@@ -1,0 +1,16 @@
+{
+  "name": "text_speech_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://oculzac.github.io/text_speech_js",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
